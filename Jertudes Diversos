@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jertudes Diversos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff1493;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('image-url-here') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            padding-top: 150px;
+            font-size: 48px;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .contact {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jertudes Diversos</h1>
+        <p>Feminine and Empowered Fashion</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Empower Your Style</h1>
+    </section>
+
+    <section class="section">
+        <h2>Our Collection</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="image-url-here" alt="Fashion Top 1">
+                <h3>Trendy Top</h3>
+                <p>Price: 2000kz</p>
+                <p>For resellers: 1500kz</p>
+                <button>Shop Now</button>
+            </div>
+            <div class="product-card">
+                <img src="image-url-here" alt="Fashion Top 2">
+                <h3>Chic Black Top</h3>
+                <p>Price: 1000kz</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Phone: 946517051</p>
+        <p>WhatsApp: 942469647</p>
+        <p>Email: jertudesdiversos@gmail.com</p>
+    </footer>
+
+</body>
+</html
